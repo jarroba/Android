@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/accion_editar"
+        android:icon="@android:drawable/ic_menu_edit"
+        android:showAsAction="always"
+        android:title="Editar"/>
+   <item
+        android:id="@+id/accion_salvar"
+        android:icon="@android:drawable/ic_menu_save"
+        android:showAsAction="always"
+        android:title="Salvar"/>
+    <item
+        android:id="@+id/accion_borrar"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:showAsAction="ifRoom"
+        android:title="Borrar"/>
+
+</menu>
